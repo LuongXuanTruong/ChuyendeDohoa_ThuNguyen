@@ -1,0 +1,30 @@
+﻿.line-cam {
+    height: 1px;
+    width: 50px;
+    background-color: #F87614;
+}
+
+.line-cam1 {
+    height: 1px;
+    width: 30px;
+    background-color: #F87614;
+}
+
+.line-cam2 {
+    height: 1px;
+    width: 10px;
+    background-color: #F87614;
+}
+
+.font-15px {
+    font-size: 15px;
+}
+.font-17px {
+    font-size: 17px;
+}
+.font-18px {
+    font-size: 18px;
+}
+.font-40px {
+    font-size: 40px;
+}

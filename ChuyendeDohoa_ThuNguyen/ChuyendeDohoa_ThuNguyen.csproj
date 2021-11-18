@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ChuyendeDohoa_ThuNguyen</RootNamespace>
     <AssemblyName>ChuyendeDohoa_ThuNguyen</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort>44365</IISExpressSSLPort>
@@ -23,6 +23,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -50,10 +51,6 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
@@ -83,17 +80,14 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="customerContent\Gioithieu.css" />
     <Content Include="customerContent\Home.css" />
     <Content Include="customerContent\Style.css" />
+    <Content Include="Gioithieu.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="Images\benner\banner.jpg" />
     <Content Include="Images\benner\banner2.jpg" />
     <Content Include="Images\benner\banner3.jpg" />
-    <Content Include="Images\Home\Aaroon-370x440.jpg" />
-    <Content Include="Images\Home\Denise-Thomson-1-370x440.jpg" />
-    <Content Include="Images\Home\nhu-toai.jpg" />
-    <Content Include="Images\Home\Paul-370x440.jpg" />
-    <Content Include="Images\Home\student-class-looking-course.jpg" />
     <Content Include="Images\Home\young-asia-businesswoman-using.png" />
     <Content Include="Images\icon\01 align center.png" />
     <Content Include="Images\icon\arrow left.png" />
@@ -154,6 +148,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Gioithieu.aspx.cs">
+      <DependentUpon>Gioithieu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gioithieu.aspx.designer.cs">
+      <DependentUpon>Gioithieu.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
