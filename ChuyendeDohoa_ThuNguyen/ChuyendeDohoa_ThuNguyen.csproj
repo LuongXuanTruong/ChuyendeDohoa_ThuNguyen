@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ChuyendeDohoa_ThuNguyen</RootNamespace>
     <AssemblyName>ChuyendeDohoa_ThuNguyen</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort>44365</IISExpressSSLPort>
@@ -23,6 +23,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -50,10 +51,6 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
@@ -83,11 +80,19 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Course.aspx" />
+    <Content Include="customerContent\Course.css" />
     <Content Include="customerContent\Style.css" />
     <Content Include="Home.aspx" />
     <Content Include="Images\benner\banner.jpg" />
     <Content Include="Images\benner\banner2.jpg" />
     <Content Include="Images\benner\banner3.jpg" />
+    <Content Include="Images\Course\freelance-business-women-casual-wear-using-tablet-working-call-video-conference-with-customer-workplace-living-room-home-happy-young-asian-girl-relax-sitting-desk-job-internet.jpg" />
+    <Content Include="Images\Course\friends-attending-online-classes-together.jpg" />
+    <Content Include="Images\Course\LOtrinh.jpg" />
+    <Content Include="Images\Course\Mask Group 23.jpg" />
+    <Content Include="Images\Course\young-asia-businesswoman-using-laptop-talk-colleague-about-plan-video-call-meeting-while-work-from-home-living-room.jpg" />
+    <Content Include="Images\Course\young-english-teacher-doing-her-lessons-online.jpg" />
     <Content Include="Images\Home\young-asia-businesswoman-using.png" />
     <Content Include="Images\icon\01 align center.png" />
     <Content Include="Images\icon\arrow left.png" />
@@ -148,6 +153,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Course.aspx.cs">
+      <DependentUpon>Course.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Course.aspx.designer.cs">
+      <DependentUpon>Course.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
