@@ -1,0 +1,197 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Customer.master.cs" Inherits="ChuyendeDohoa_ThuNguyen.MasterPage.Customer" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../customerContent/Style.css" rel="stylesheet" />
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <script src="../Scripts/jquery-3.6.0.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <%--phần này hiện thị logo và trang đăng ký đăng nhập--%>
+        <div class="container-fluid color-hear">
+            <div class="row">
+                <div class="col-12">
+                    <div class="container">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <img src="../Images/logo/logo_header.png" class="logo" />
+                            </div>
+                            <div class="font-14px color-black">
+                                <a>Đăng nhập</a> / <a>Đăng ký</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <%-- phần này hiển thị một menu rất chi là đẹp--%>
+        <nav class="navbar navbar-expand-lg navbar-light  bg-menu p-0 height-40px">
+            <div class="container ">
+                <button class="navbar-toggler text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center height-40px" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Khóa học</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Lịch học</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tài liệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tin tức</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer>
+            <div class="container pt-4">
+                <div class="row ">
+                    <div class="col-12 col-md-6 line-right">
+                        <div class="row col-12 justify-content-between align-items-center">
+                            <div class="col-12 col-md-4">
+                                <img src="../Images/logo/logo_footer.png" class="logo-footer" />
+                            </div>
+                            <div class="col-12 col-md-8">
+                                Góp phần tạo ra các tiêu chuẩn cao nhất trong lĩnh vực đào tạo IELTS, truyền cảm hứng cho việc học và dạy IELTS cho người Việt.
+                            </div>
+                        </div>
+                        <div class="line mt-4 mb-4"></div>
+                        <div class="row">
+                            <div class="col-12">
+                                <%-- đây là menu footer dòng đầu tiên--%>
+                                <nav class="navbar navbar-expand-lg p-0">
+                                    <div class="collapse navbar-collapse justify-content-center">
+                                        <ul class="navbar-nav">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Trang chủ</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Giới thiệu</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Khóa học</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Lịch học</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Liên hệ</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+
+                                <%--đây là menu footer dòng thứ 2--%>
+                                <nav class="navbar navbar-expand-lg p-0">
+                                    <div class="collapse navbar-collapse">
+                                        <ul class="navbar-nav">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Tài liệu học</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Đăng ký học</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Tin tức</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Các cơ sở</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="row ms-1">
+                            <div class="col-6  d-flex">
+                                <div>
+                                    <img src="../Images/icon/phone%20call_footer.png" class="img-fluid w-100" />
+                                </div>
+                                <div class="ms-3 fw-bold">
+                                    <p class="font-12px m-0">Hotline</p>
+                                    <h6>0961320799</h6>
+                                </div>
+                            </div>
+                            <div class="col-6 d-flex ps-0">
+                                <div>
+                                    <img src="../Images/icon/email%20footer.png" class="img-fluid w-100" />
+                                </div>
+                                <div class="ms-3 fw-bold">
+                                    <p class="font-12px m-0">Email</p>
+                                    <h6>snowdrop075@gmail.com</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row ms-1 mt-4">
+                            <div class="col-col-6 d-flex">
+                                <div>
+                                    <img src="../Images/icon/local%20footer.png" class="img-fluid w-100" />
+                                </div>
+                                <div class="ms-3 fw-bold">
+                                    <p class="font-12px m-0">Địa chỉ trụ sở</p>
+                                    <h6>Số 96 Định Công, Hoàng Mai, Hà Nội</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-5 ms-1">
+                            <div class="col-4 d-flex align-items-center">
+                                <div>
+                                    <img src="../Images/icon/fb%20footer.png" class="icon-footer" />
+                                </div>
+                                <h6 class="fw-bold ms-2">Facebook</h6>
+                            </div>
+                            <div class="col-4 d-flex align-items-center">
+                                <div>
+                                    <img src="../Images/icon/Inssta%20footer.png" class="icon-footer" />
+                                </div>
+                                <h6 class="fw-bold ms-2">Instagram</h6>
+                            </div>
+                            <div class="col-4 d-flex align-items-center">
+                                <div>
+                                    <img src="../Images/icon/youtube.png" class="icon-footer" />
+                                </div>
+                                <h6 class="fw-bold ms-2">Youtube</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center font-11px pt-4 lh-24">
+                        Chính sách và quy định chung | Chính sách hoạt động | Chính sách bảo mật thông tin
+                        <br />
+                        Copyright © 2021 BEST IELTS
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </form>
+</body>
+</html>
