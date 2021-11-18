@@ -83,11 +83,17 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="customerContent\Home.css" />
     <Content Include="customerContent\Style.css" />
     <Content Include="Home.aspx" />
     <Content Include="Images\benner\banner.jpg" />
     <Content Include="Images\benner\banner2.jpg" />
     <Content Include="Images\benner\banner3.jpg" />
+    <Content Include="Images\Home\Aaroon-370x440.jpg" />
+    <Content Include="Images\Home\Denise-Thomson-1-370x440.jpg" />
+    <Content Include="Images\Home\nhu-toai.jpg" />
+    <Content Include="Images\Home\Paul-370x440.jpg" />
+    <Content Include="Images\Home\student-class-looking-course.jpg" />
     <Content Include="Images\Home\young-asia-businesswoman-using.png" />
     <Content Include="Images\icon\01 align center.png" />
     <Content Include="Images\icon\arrow left.png" />
