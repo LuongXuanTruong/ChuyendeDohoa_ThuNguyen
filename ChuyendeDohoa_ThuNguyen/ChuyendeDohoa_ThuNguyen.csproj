@@ -82,6 +82,7 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="customerContent\Gioithieu.css" />
     <Content Include="customerContent\Home.css" />
+    <Content Include="customerContent\Lichhoc.css" />
     <Content Include="customerContent\Style.css" />
     <Content Include="Gioithieu.aspx" />
     <Content Include="Home.aspx" />
@@ -134,6 +135,7 @@
     <Content Include="Images\icon\zoom out.png" />
     <Content Include="Images\logo\logo_footer.png" />
     <Content Include="Images\logo\logo_header.png" />
+    <Content Include="Lichhoc.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -161,6 +163,13 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lichhoc.aspx.cs">
+      <DependentUpon>Lichhoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lichhoc.aspx.designer.cs">
+      <DependentUpon>Lichhoc.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage\Customer.Master.cs">
       <DependentUpon>Customer.Master</DependentUpon>
