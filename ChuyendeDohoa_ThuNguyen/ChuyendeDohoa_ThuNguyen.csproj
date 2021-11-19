@@ -82,12 +82,22 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="customerContent\Gioithieu.css" />
     <Content Include="customerContent\Home.css" />
+    <Content Include="customerContent\lienhe.css" />
     <Content Include="customerContent\Style.css" />
+    <Content Include="Dangky.aspx" />
+    <Content Include="Dangnhap.aspx" />
     <Content Include="Gioithieu.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="Images\benner\banner.jpg" />
     <Content Include="Images\benner\banner2.jpg" />
     <Content Include="Images\benner\banner3.jpg" />
+    <Content Include="Images\Home\118784861_2391026321202245_2993682928341396303_n.jpg" />
+    <Content Include="Images\Home\134396739_3023189751241938_4851162489730295500_n.jpg" />
+    <Content Include="Images\Home\245259175_3164780057090557_4505228158820579816_n.jpg" />
+    <Content Include="Images\Home\newsletter.jpg" />
+    <Content Include="Images\Home\tintuc1.png" />
+    <Content Include="Images\Home\tintuc2.jpg" />
+    <Content Include="Images\Home\tintuc3.png" />
     <Content Include="Images\Home\young-asia-businesswoman-using.png" />
     <Content Include="Images\icon\01 align center.png" />
     <Content Include="Images\icon\arrow left.png" />
@@ -132,8 +142,15 @@
     <Content Include="Images\icon\youtube.png" />
     <Content Include="Images\icon\zoom in.png" />
     <Content Include="Images\icon\zoom out.png" />
+    <Content Include="Images\lienhe\fred-kloet-IrQZkyhdOow-unsplash.jpg" />
+    <Content Include="Images\lienhe\myhq-workspaces-ZMK4lzeuCLo-unsplash.jpg" />
+    <Content Include="Images\lienhe\neonbrand-y_6rqStQBYQ-unsplash.jpg" />
+    <Content Include="Images\lienhe\thisisengineering-raeng-h6gCRTCxM7o-unsplash.jpg" />
+    <Content Include="Images\lienhe\van-tay-media-TOBRTuE_uXA-unsplash.jpg" />
+    <Content Include="Images\lienhe\young-woman-teaching-english-lessons.jpg" />
     <Content Include="Images\logo\logo_footer.png" />
     <Content Include="Images\logo\logo_header.png" />
+    <Content Include="Lienhe.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -148,6 +165,20 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dangky.aspx.cs">
+      <DependentUpon>Dangky.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dangky.aspx.designer.cs">
+      <DependentUpon>Dangky.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dangnhap.aspx.cs">
+      <DependentUpon>Dangnhap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dangnhap.aspx.designer.cs">
+      <DependentUpon>Dangnhap.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Gioithieu.aspx.cs">
       <DependentUpon>Gioithieu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -161,6 +192,13 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lienhe.aspx.cs">
+      <DependentUpon>Lienhe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lienhe.aspx.designer.cs">
+      <DependentUpon>Lienhe.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage\Customer.Master.cs">
       <DependentUpon>Customer.Master</DependentUpon>

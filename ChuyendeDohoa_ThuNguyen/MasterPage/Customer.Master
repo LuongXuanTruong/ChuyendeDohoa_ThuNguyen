@@ -24,7 +24,7 @@
                                 <img src="../Images/logo/logo_header.png" class="logo" />
                             </div>
                             <div class="font-14px color-black">
-                                <a>Đăng nhập</a> / <a>Đăng ký</a>
+                                <a href="../Dangnhap.aspx" class="login">Đăng nhập</a> / <a class="login" href="../Dangky.aspx">Đăng ký</a>
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@
                             <a class="nav-link" href="#">Tin tức</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Liên hệ</a>
+                            <a class="nav-link" href="../Lienhe.aspx">Liên hệ</a>
                         </li>
                     </ul>
                 </div>

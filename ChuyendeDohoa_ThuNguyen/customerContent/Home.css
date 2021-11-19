@@ -3,23 +3,66 @@
     width: 50px;
     background-color: #F87614;
 }
+
 .line-cam1 {
     height: 3px;
     width: 30px;
     background-color: #F87614;
 }
+
 .line-cam2 {
     height: 3px;
     width: 10px;
     background-color: #F87614;
 }
+
 .text-cam {
     color: #F87614;
 }
+
 .border-right {
     border-right: 2px solid #d5d0d0;
 }
+
 .btn-warning {
     background-color: #F87614 !important;
     color: #fff !important;
+}
+
+.img-item {
+    position: relative;
+}
+
+    .img-item .item {
+        position: absolute;
+        bottom: 4px;
+        left: 8px;
+    }
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.fw-medium {
+    font-weight: 500;
+}
+
+.dobong {
+    background: #fff;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #f5f5f5 #eee #d5d5d5 #eee;
+    box-shadow: 0 1px 0 rgb(200 200 200 / 20%);
+}
+
+.img-email {
+    background-image: url("../Images/Home/newsletter.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 260px;
+}
+
+.btn-customer {
+    border-radius: 18px;
+    border-color: #F87614 !important;
 }
