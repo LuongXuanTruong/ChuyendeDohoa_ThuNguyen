@@ -12,6 +12,7 @@ namespace ChuyendeDohoa_ThuNguyen
         protected void Page_Load(object sender, EventArgs e)
         {
             //Commit
+            
         }
     }
 }
