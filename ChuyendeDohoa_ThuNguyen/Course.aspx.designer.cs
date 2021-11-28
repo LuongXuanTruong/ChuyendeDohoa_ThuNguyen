@@ -12,5 +12,6 @@ namespace ChuyendeDohoa_ThuNguyen
 {
     public partial class Course
     {
+        //
     }
 }

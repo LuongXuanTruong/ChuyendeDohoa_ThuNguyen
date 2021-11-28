@@ -9,7 +9,7 @@
         <p>Trang chủ / Khóa học</p>
         <div class="row align-items-center">
             <div class="col-12 col-md-7">
-                <h5 class="fw-bold">CHƯƠNG TRÌNH IELTS</h5>
+                <h5 class="fw-bold">CHƯƠNG TRÌNH IELTS 4</h5>
 
                 <div class="mt-3 mb-3 d-flex ms-0">
                     <div class="line-cam"></div>
