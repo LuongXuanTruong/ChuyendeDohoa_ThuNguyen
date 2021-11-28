@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ChuyendeDohoa_ThuNguyen</RootNamespace>
     <AssemblyName>ChuyendeDohoa_ThuNguyen</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort>44365</IISExpressSSLPort>
@@ -87,6 +87,8 @@
     <Content Include="customerContent\Home.css" />
     <Content Include="customerContent\lienhe.css" />
     <Content Include="customerContent\Lichhoc.css" />
+    <Content Include="Course.aspx" />
+    <Content Include="customerContent\Course.css" />
     <Content Include="customerContent\Style.css" />
     <Content Include="Dangky.aspx" />
     <Content Include="Dangnhap.aspx" />
@@ -102,6 +104,17 @@
     <Content Include="Images\Home\tintuc1.png" />
     <Content Include="Images\Home\tintuc2.jpg" />
     <Content Include="Images\Home\tintuc3.png" />
+    <Content Include="Images\Course\clarissa-watson-jAebodq7oxk-unsplash.jpg" />
+    <Content Include="Images\Course\freelance-business-women-casual-wear-using-tablet-working-call-video-conference-with-customer-workplace-living-room-home-happy-young-asian-girl-relax-sitting-desk-job-internet.jpg" />
+    <Content Include="Images\Course\friends-attending-online-classes-together.jpg" />
+    <Content Include="Images\Course\hand-writing-paper-with-pen.jpg" />
+    <Content Include="Images\Course\LOtrinh.jpg" />
+    <Content Include="Images\Course\Mask Group 23.jpg" />
+    <Content Include="Images\Course\thought-catalog-505eectW54k-unsplash.jpg" />
+    <Content Include="Images\Course\woman-teaching-kids-english-lesson-online.jpg" />
+    <Content Include="Images\Course\young-asia-businesswoman-using-laptop-talk-colleague-about-plan-video-call-meeting-while-work-from-home-living-room.jpg" />
+    <Content Include="Images\Course\young-english-teacher-doing-her-lessons-online.jpg" />
+    <Content Include="Images\Course\young-woman-with-microphone-recording-voice-acting.jpg" />
     <Content Include="Images\Home\young-asia-businesswoman-using.png" />
     <Content Include="Images\icon\01 align center.png" />
     <Content Include="Images\icon\arrow left.png" />
@@ -190,6 +203,13 @@
     </Compile>
     <Compile Include="Gioithieu.aspx.designer.cs">
       <DependentUpon>Gioithieu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Course.aspx.cs">
+      <DependentUpon>Course.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Course.aspx.designer.cs">
+      <DependentUpon>Course.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>

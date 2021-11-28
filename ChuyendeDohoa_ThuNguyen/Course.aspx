@@ -65,7 +65,7 @@ tiếng Anh học thuật. Mục tiêu IELTS 4.5+.
 
                 <div class="col-12 col-md-4">
                     <div class="khoianh">
-                        <img src="Images/Course/freelance-business-women-casual-wear-using-tablet-working-call-video-conference-with-customer-workplace-living-room-home-happy-young-asian-girl-relax-sitting-desk-job-internet.jpg" class="w-100 img-fluid" />
+                        <img src="Images/Course/2.jpg" class="w-100 img-fluid" />
                         <h6 class="text-center fw-bold mt-3">Khoá học Pre IELTS</h6>
                         <p class="font-13px text-center w-75 mx-auto">
                             Cung cấp kiến thức và kỹ năng cơ bản cho
@@ -82,7 +82,7 @@ kỳ thi IELTS. Mục tiêu IELTS 5.0+.
                 </div>
                 <div class="col-12 col-md-4">
                     <div class="khoianh">
-                        <img src="Images/Course/young-asia-businesswoman-using-laptop-talk-colleague-about-plan-video-call-meeting-while-work-from-home-living-room.jpg" class="w-100 img-fluid" />
+                        <img src="Images/Course/7.jpg" class="w-100 img-fluid" />
                         <h6 class="text-center fw-bold">Khoá học IELTS Level 1</h6>
                         <p class="font-13px text-center w-75 mx-auto">
                             Phát triển cả 4 kỹ năng, bám sát nội dung
@@ -101,7 +101,7 @@ kỳ thi IELTS. Mục tiêu IELTS 5.5+
             <div class="row mt-3 pb-5">
                 <div class="col-12 col-md-4">
                     <div class="khoianh">
-                        <img src="Images/Course/friends-attending-online-classes-together.jpg" class="w-100 img-fluid" />
+                        <img src="Images/Course/3.jpg" class="w-100 img-fluid" />
                         <h6 class="text-center fw-bold">Khoá học IELTS Level 2</h6>
                         <p class="font-13px text-center w-75 mx-auto">
                             Kiến thức nâng cao, luyện kỹ năng tổ chức
@@ -119,7 +119,7 @@ bài thi IELTS. Mục tiêu IELTS 6.5+
 
                 <div class="col-12 col-md-4">
                     <div class="khoianh">
-                        <img src="Images/Course/young-english-teacher-doing-her-lessons-online.jpg" class="img-fluid w-100" />
+                        <img src="Images/Course/.jpg" class="img-fluid w-100" />
                         <h6 class="text-center fw-bold">Khoá học IELTS Level 3</h6>
                         <p class="font-13px text-center w-75 mx-auto">
                             Khóa học nâng cao nhất, luyện kỹ thuật làm
@@ -156,7 +156,7 @@ trong hệ thống bài thi IELTS thông qua hệ thống chủ đề và bài t
         <div class="row">
             <div class="col-12 col-md-4">
                 <div class="khoianh">
-                    <img src="Images/Course/young-woman-with-microphone-recording-voice-acting.jpg" class="img-fluid w-100" />
+                    <img src="Images/Course/9.jpg" class="img-fluid w-100" />
                     <h6 class="text-center fw-bold">Speaking & Writing Intermediate</h6>
                     <p class="font-13px text-center w-75 mx-auto">
                         Luyện Nói và Viết qua thực hành và lượng bài
@@ -174,7 +174,7 @@ tập đa dạng. Mục tiêu IELTS 5.5+
 
             <div class="col-12 col-md-4">
                 <div class="khoianh">
-                    <img src="Images/Course/thought-catalog-505eectW54k-unsplash.jpg" class="w-100 img-fluid" />
+                    <img src="Images/Course/5.jpg" class="w-100 img-fluid" />
                     <h6 class="text-center fw-bold">Speaking & Writing Intermediate</h6>
                     <p class="font-13px text-center w-75 mx-auto">
                         Luyện Nói và Viết qua thực hành và lượng bài
@@ -192,7 +192,7 @@ tập đa dạng. Mục tiêu IELTS 5.5+
 
             <div class="col-12 col-md-4">
                 <div class="khoianh">
-                    <img src="Images/Course/hand-writing-paper-with-pen.jpg" class="w-100 img-fluid" />
+                    <img src="Images/Course/4.jpg" class="w-100 img-fluid" />
                     <h6 class="text-center fw-bold">Speaking & Writing Advanced</h6>
                     <p class="font-13px text-center w-75 mx-auto">
                         Tập trung chuyên sâu kỹ năng Nói và Viết
@@ -213,7 +213,7 @@ nâng cao. Mục tiêu IELTS 7.5+
         <div class="row mt-4">
             <div class="col-12 col-md-4">
                 <div class="khoianh">
-                    <img src="Images/Course/clarissa-watson-jAebodq7oxk-unsplash.jpg" class="w-100 img-fluid" />
+                    <img src="Images/Course/1.jpg" class="w-100 img-fluid" />
                     <h6 class="text-center fw-bold">Thi thử IELTS (Mock Test)</h6>
                     <p class="font-13px text-center w-75 mx-auto">
                         Bài thi thử giúp thí sinh trải nghiệm áp lực
@@ -231,7 +231,7 @@ phòng thi và độ khó đề IELTS
 
             <div class="col-12 col-md-4">
                 <div class="khoianh">
-                    <img src="Images/Course/woman-teaching-kids-english-lesson-online.jpg" class="w-100 img-fluid" />
+                    <img src="Images/Course/6.jpg" class="w-100 img-fluid" />
                     <h6 class="text-center fw-bold">BEST IELTS Workshop</h6>
                     <p class="font-13px text-center w-75 mx-auto">
                         Hội thảo tổng kết, củng cố kiến thức IELTS
