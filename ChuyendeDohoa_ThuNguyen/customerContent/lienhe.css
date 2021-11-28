@@ -1,0 +1,23 @@
+﻿.line-cam {
+    height: 3px;
+    width: 50px;
+    background-color: #F87614;
+}
+
+.line-cam1 {
+    height: 3px;
+    width: 30px;
+    background-color: #F87614;
+}
+
+.line-cam2 {
+    height: 3px;
+    width: 10px;
+    background-color: #F87614;
+}
+
+.btn-warning {
+    background-color: #F87614 !important;
+    color: #fff !important;
+    border-color: #F87614 !important;
+}
