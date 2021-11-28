@@ -53,3 +53,18 @@
 }
 
 
+.img-email {
+    background-image: url("../Images/Home/newsletter.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 260px;
+}
+
+.btn-customer {
+    border-radius: 18px;
+    border-color: #F87614 !important;
+}
+.btn-warning {
+    background-color: #F87614 !important;
+    color: #fff !important;
+}

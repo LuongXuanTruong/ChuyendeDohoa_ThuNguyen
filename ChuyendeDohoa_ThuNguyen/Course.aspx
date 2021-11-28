@@ -58,7 +58,7 @@ tiếng Anh học thuật. Mục tiêu IELTS 4.5+.
                             <p class="font-12px">6.150.000 VNĐ</p>
                         </div>
                         <div class="d-flex justify-content-center ">
-                            <button class="background-cam w-25 btn-warning btn mb-4">Đăng ký</button>
+                            <button class="background-cam  btn-warning btn mb-4">Đăng ký</button>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ kỳ thi IELTS. Mục tiêu IELTS 5.0+.
                             <p class="font-12px">7.250.000 VNĐ</p>
                         </div>
                         <div class="d-flex justify-content-center ">
-                            <button class="background-cam w-25 btn-warning btn mb-4">Đăng ký</button>
+                            <button class="background-cam  btn-warning btn mb-4">Đăng ký</button>
                         </div>
                     </div>
                 </div>
@@ -93,7 +93,7 @@ kỳ thi IELTS. Mục tiêu IELTS 5.5+
                             <p class="font-12px">9.950.000 VNĐ</p>
                         </div>
                         <div class="d-flex justify-content-center ">
-                            <button class="background-cam w-25 btn-warning btn mb-4">Đăng ký</button>
+                            <button class="background-cam  btn-warning btn mb-4">Đăng ký</button>
                         </div>
                     </div>
                 </div>
@@ -112,14 +112,14 @@ bài thi IELTS. Mục tiêu IELTS 6.5+
                             <p class="font-12px">10.350.000 VNĐ</p>
                         </div>
                         <div class="d-flex justify-content-center ">
-                            <button class="background-cam w-25 btn-warning btn mb-4">Đăng ký</button>
+                            <button class="background-cam  btn-warning btn mb-4">Đăng ký</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-12 col-md-4">
                     <div class="khoianh">
-                        <img src="Images/Course/.jpg" class="img-fluid w-100" />
+                        <img src="Images/Course/young-woman-with-microphone-recording-voice-acting.jpg" class="img-fluid w-100" />
                         <h6 class="text-center fw-bold">Khoá học IELTS Level 3</h6>
                         <p class="font-13px text-center w-75 mx-auto">
                             Khóa học nâng cao nhất, luyện kỹ thuật làm
@@ -130,7 +130,7 @@ bài phức tạp. Mục tiêu IELTS 7.5+
                             <p class="font-12px">10.750.000 VNĐ</p>
                         </div>
                         <div class="d-flex justify-content-center ">
-                            <button class="background-cam w-25 btn-warning btn mb-4">Đăng ký</button>
+                            <button class="background-cam  btn-warning btn mb-4">Đăng ký</button>
                         </div>
                     </div>
                 </div>
@@ -167,7 +167,7 @@ tập đa dạng. Mục tiêu IELTS 5.5+
                         <p class="font-12px">7.480.000 VNĐ</p>
                     </div>
                     <div class="d-flex justify-content-center ">
-                        <button class="background-cam w-25 btn-warning btn mb-4">Đăng ký</button>
+                        <button class="background-cam  btn-warning btn mb-4">Đăng ký</button>
                     </div>
                 </div>
             </div>
@@ -185,7 +185,7 @@ tập đa dạng. Mục tiêu IELTS 5.5+
                         <p class="font-12px">7.480.000 VNĐ</p>
                     </div>
                     <div class="d-flex justify-content-center ">
-                        <button class="background-cam w-25 btn-warning btn mb-4">Đăng ký</button>
+                        <button class="background-cam  btn-warning btn mb-4">Đăng ký</button>
                     </div>
                 </div>
             </div>
@@ -202,8 +202,8 @@ nâng cao. Mục tiêu IELTS 7.5+
                         <p class="font-12px borderline">39 giờ (9 tuần)</p>
                         <p class="font-12px">7.680.000 VNĐ</p>
                     </div>
-                    <div class="d-flex justify-content-center ">
-                        <button class="background-cam w-25 btn-warning btn mb-4">Đăng ký</button>
+                    <div class="d-flex justify-content-center mt-3">
+                        <button class="background-cam  btn-warning btn mb-4">Đăng ký</button>
                     </div>
                 </div>
             </div>
@@ -224,7 +224,7 @@ phòng thi và độ khó đề IELTS
                         <p class="font-12px">1.200.000 VNĐ</p>
                     </div>
                     <div class="d-flex justify-content-center ">
-                        <button class="background-cam w-25 btn-warning btn mb-4">Đăng ký</button>
+                        <button class="background-cam  btn-warning btn mb-4">Đăng ký</button>
                     </div>
                 </div>
             </div>
@@ -242,7 +242,7 @@ trong thời gian ngắn
                         <p class="font-12px">600.000 VNĐ</p>
                     </div>
                     <div class="d-flex justify-content-center ">
-                        <button class="background-cam w-25 btn-warning btn mb-4">Đăng ký</button>
+                        <button class="background-cam  btn-warning btn mb-4">Đăng ký</button>
                     </div>
                 </div>
             </div>
@@ -348,22 +348,24 @@ mục tiêu với chi phí hợp lý.
         </div>
     </div>
 
-    <div class="background-img w-100 img-fluid">
-        <div class="container pb-4">
+    <div class="img-email">
+        <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6">
-                    <h5 class="mt-4 color-cam">ĐĂNG KÝ TƯ VẤN MIỄN PHÍ</h5>
-                    <p class="font-14px color-white mb-3">
-                        Bạn đã sẵn sàng học IELTS nhưng vẫn còn nhiều thắc mắc? Hãy để lại thông tin để được
-các Tư Vấn Viên liên hệ hỗ trợ bạn nhé!
+                <div class="col-12 col-md-9">
+                    <h4 class="fw-bold text-cam mt-5">ĐĂNG KÝ TƯ VẤN MIỄN PHÍ</h4>
+                    <p class="font-14px m-0 text-white">
+                        Bạn đã sẵn sàng học IELTS nhưng vẫn còn nhiều thắc mắc? Hãy để lại thông tin để được các Tư Vấn Viên liên hệ hỗ trợ bạn nhé!
                     </p>
-                    <p class="font-17px color-cam mb-2">Hoặc gọi hotline</p>
-                    <h4 class="fw-bold color-white">0961320799</h4>
+                    <p class="mb-0 text-cam mt-4">Hoặc gọi hotline</p>
+                    <h4 class="text-white fw-bold">0961320799</h4>
                 </div>
-                <div class="col-12 col-md-6">
-                    <input type="text" class="d-block input-group w-50 border rounded p-2 font-13px" placeholder="Họ và tên"/>
-                    <input type="text" class="d-block input-group w-50 border rounded p-2 font-13px" placeholder="Email" />
-                    <input type="text" class="d-block input-group w-50 mx-auto border rounded p-2 font-13px" placeholder="Số điện thoại" />
+                <div class="col-12 col-md-3 mb-3">
+                    <input type="email" class="form-control mb-3 mt-5" placeholder="Họ và tên">
+                    <input type="email" class="form-control mb-3" placeholder="Email">
+                    <input type="email" class="form-control mb-3" placeholder="Số điện thoại">
+                    <div class="w-50 mx-auto">
+                        <button class="btn btn-warning btn-warning btn-customer">Đăng ký ngay</button>
+                    </div>
                 </div>
             </div>
         </div>
